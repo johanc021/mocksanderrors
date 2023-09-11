@@ -1,3 +1,7 @@
+http://localhost:8080 -> muestra el home
+
+---
+
 Inicio de sesión:
 
 http://localhost:8080/login
@@ -283,3 +287,15 @@ Peticion POST - Comprar carrito de compras
 Enviar por params el id del carrito
 
 http://localhost:8080/api/cart/:cid/purchase
+
+---
+
+---
+
+---
+
+Petición GET - Crear Mocks de productos
+
+http://localhost:8080/mockingproducts
+
+Se creara 500 productos en la base de datos
